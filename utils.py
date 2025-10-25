@@ -31,9 +31,9 @@ def format_change(value):
     try:
         value = float(value)
         if value > 0:
-            return f"🔺 {format_value_number_custom(value)}"
+            return f" {format_value_number_custom(value)}+"
         elif value < 0:
-            return f"🔻 {format_value_number_custom(abs(value))}"
+            return f" {format_value_number_custom(abs(value))}+"
         else:
             return "➖ ۰"
     except:

@@ -1,0 +1,12 @@
+# 08:00 - global-market.py
+0 8 * * * /usr/bin/python ~/tavazon-tg/global-market.py >> ~/tavazon-tg/logs/global-market.log 2>&1
+
+# 09:00 و 12:30 - market.py
+0 9 * * * /usr/bin/python ~/tavazon-tg/market.py >> /root/tavazon-tg/logs/market.log 2>&1
+30 12 * * * /usr/bin/python ~/tavazon-tg/market.py >> /root/tavazon-tg/logs/market.log 2>&1
+
+# 10:30 - currency.py
+30 10 * * * /usr/bin/python ~/tavazon-tg/currency.py >> /root/tavazon-tg/logs/currency.log 2>&1
+
+# 11:00 - gold.py
+0 11 * * * /usr/bin/python ~/tavazon-tg/gold.py >> /root/tavazon-tg/logs/gold.log 2>&1

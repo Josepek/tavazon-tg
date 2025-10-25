@@ -36,5 +36,6 @@ if __name__ == "__main__":
     gold_data = fetch_gold_data()
     if gold_data:
         message = build_gold_message(gold_data)
-        footer = "\n\nکارگزاری توازن بازار\nثبت‌نام ۳ کلیک در بورس:\nregister.dayatrader.ir\n\n🆔 @Tavazonex\n🔊 tavazonex.com"
+        footer = (
+    "\n\nثبت‌نام ۳ کلیک در بورس:\nhttps://B2n.ir/tvzn\n\n🆔 @Tavazonex")
         send_message(message + footer)

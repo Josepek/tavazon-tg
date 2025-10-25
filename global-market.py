@@ -5,16 +5,16 @@ from utils import format_value_number_custom, send_message
 SYMBOLS = {
     "BTCUSDT": "BTC-USD",
     "ETHUSDT": "ETH-USD",
-    "UKOIL": "BZ=F",      
-    "COPPER": "HG=F",   
-    "ZINC": "ZNC=F",     
-    "GOLD": "GC=F",     
-    "ALUMINIUM": "ALI=F",     
-    "SP500": "^GSPC",      
-    "DJI": "^DJI",      
-    "NASDAQ": "^IXIC",    
-    "DXY": "DX-Y.NYB",    
-    "EURUSD": "EURUSD=X", 
+    "UKOIL": "BZ=F",
+    "COPPER": "HG=F",
+    "ZINC": "ZNC=F",
+    "GOLD": "GC=F",
+    "ALUMINIUM": "ALI=F",
+    "SP500": "^GSPC",
+    "DJI": "^DJI",
+    "NASDAQ": "^IXIC",
+    "DXY": "DX-Y.NYB",
+    "EURUSD": "EURUSD=X",
 }
 
 DISPLAY_NAMES = {
@@ -32,7 +32,9 @@ DISPLAY_NAMES = {
     "EURUSD": "یورو / دلار",
 }
 
-FOOTER = "\n\nکارگزاری توازن بازار\nثبت‌نام ۳ کلیک در بورس:\nregister.dayatrader.ir\n\n🆔 @Tavazonex\n🔊 tavazonex.com"
+FOOTER = (
+    "\n\nثبت‌نام ۳ کلیک در بورس:\nhttps://B2n.ir/tvzn\n\n🆔 @Tavazonex"
+)
 
 
 def fetch_market_data():

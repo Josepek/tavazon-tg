@@ -5,7 +5,9 @@ CURRENCY_URL = "https://chandshode.com/api/Gold_Currency.php?fields=currency"
 
 TARGET_SYMBOLS = ["USDT_IRT", "USD", "EUR", "AED", "GBP"]
 
-FOOTER = "\n\nکارگزاری توازن بازار\nثبت‌نام ۳ کلیک در بورس:\nregister.dayatrader.ir\n\n🆔 @Tavazonex\n🔊 tavazonex.com"
+FOOTER = (
+    "\n\nثبت‌نام ۳ کلیک در بورس:\nhttps://B2n.ir/tvzn\n\n🆔 @Tavazonex"
+)
 
 def fetch_currency_data():
     try:
